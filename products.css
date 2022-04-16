@@ -1,0 +1,25 @@
+#options {
+    height: 20%;
+    border: 1px solid red;
+}
+
+#allProducts {
+    height: auto;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#subCat {
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+#productBox {
+    height: auto;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
